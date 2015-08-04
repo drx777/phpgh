@@ -12,8 +12,8 @@
     "require-dev": {
     	"phpunit/phpunit": "*",
 	"squizlabs/php_codesniffer": "*"
-    }
+    },
     "bin": [
-    	   "bin/pre-commit",
+    	   "bin/hooks"
     ]
 }
