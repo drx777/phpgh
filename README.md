@@ -1,7 +1,10 @@
 # phpgh
 git hooks for PHP
 
-## usage
+## Install
+```git require --dev drx777/phpgh```
+
+## Usage
 add a call to the hooks script to your .git/hooks/pre-commit:
 
 ```../../vendor/bin/phpgh phpcs phplint phpunit```
@@ -11,7 +14,6 @@ add a call to the hooks script to your .git/hooks/pre-commit:
 * phpcs
 * phplint
 * phpunit
-
 
 ## References
 Using portions from <https://gist.github.com/cjsaylor/10503398>
