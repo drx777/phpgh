@@ -14,6 +14,6 @@
 	"squizlabs/php_codesniffer": "*"
     },
     "bin": [
-    	   "bin/phpgs"
+    	   "bin/phpgh"
     ]
 }
