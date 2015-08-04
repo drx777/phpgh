@@ -5,14 +5,14 @@ git hooks for PHP
 ### globally (recommended)
 no need to modify the project's composer.json and disturbing your collegues
 
-```git require global drx777/phpgh```
+```$ composer require global drx777/phpgh```
 
 add a call to the hooks script to your .git/hooks/pre-commit:
 
 ```~/.composer/vendor/bin/phpgh phplint phpcs phpunit```
 
 ### per project
-```git require --dev drx777/phpgh```
+```$ composer require --dev drx777/phpgh```
 
 add a call to the hooks script to your .git/hooks/pre-commit:
 
