@@ -2,6 +2,7 @@
     "name": "drx777/phpgh",
     "description": "git hooks for PHP",
     "type": "library",
+    "version": "0.1",
     "license": "MIT",
     "authors": [
         {
