@@ -1,0 +1,19 @@
+{
+    "name": "drx777/phpgh",
+    "description": "git hooks for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Rekowski",
+            "email": "david@rekowski.info"
+        }
+    ],
+    "require-dev": {
+    	"phpunit/phpunit": "*",
+	"squizlabs/php_codesniffer": "*"
+    }
+    "bin": [
+    	   "bin/pre-commit",
+    ]
+}

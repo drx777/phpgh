@@ -1,0 +1,21 @@
+#!/bin/bash
+
+SCRIPTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+PHPGH=$SCRIPTDIR/../drx777/phpgh/bin
+
+for var in "$@"
+do
+    echo
+    echo PROCESSING hook parameter $var:
+    case $var in
+        "phpunit")
+	    $PHPGH/hook-phpunit
+	    ;;
+	"phplint")
+	    $PHPGH/hook-phplint
+	    ;;
+	"phpcs")
+	    $PHPGH/hook-phpcs
+	    ;;
+    esac
+done
