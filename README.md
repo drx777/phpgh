@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/drx777/phpgh/v/stable)](https://packagist.org/packages/drx777/phpgh) [![Total Downloads](https://poser.pugx.org/drx777/phpgh/downloads)](https://packagist.org/packages/drx777/phpgh) [![Latest Unstable Version](https://poser.pugx.org/drx777/phpgh/v/unstable)](https://packagist.org/packages/drx777/phpgh) [![License](https://poser.pugx.org/drx777/phpgh/license)](https://packagist.org/packages/drx777/phpgh)
+
 # phpgh
 git hooks for PHP
 
