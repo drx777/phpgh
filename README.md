@@ -7,7 +7,7 @@ git hooks for PHP
 ## Usage
 add a call to the hooks script to your .git/hooks/pre-commit:
 
-```../../vendor/bin/phpgh phpcs phplint phpunit```
+```./vendor/bin/phpgh phpcs phplint phpunit```
 
 ### available hooks
 
