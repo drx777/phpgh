@@ -2,22 +2,21 @@
 git hooks for PHP
 
 ## Install
-### per project
-```git require --dev drx777/phpgh```
-### globally
+### globally (recommended)
 no need to modify the project's composer.json and disturbing your collegues
 
 ```git require global drx777/phpgh```
 
-## Usage
 add a call to the hooks script to your .git/hooks/pre-commit:
 
+```~/.composer/vendor/bin/phpgh phplint phpcs phpunit```
+
 ### per project
-If installed for the project (registered in your project's composer.json), see above section Install
+```git require --dev drx777/phpgh```
+
+add a call to the hooks script to your .git/hooks/pre-commit:
 
 ```./vendor/bin/phpgh phpcs phplint phpunit```
-### globally
-```~/.composer/vendor/bin/phpgh phplint phpcs phpunit```
 
 ### available hooks
 
