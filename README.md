@@ -3,6 +3,14 @@
 # phpgh
 git hooks for PHP
 
+## Purpose
+This package wants to provide a simple way of adding git hooks to a project, even a number of projects without having to mess with multiple project's .git/hooks/* scripts. Install via composer and add a line to the hook script.
+
+It can be used to kickstart your own centralized git hooks or as a basis for a company policy git hook collection.
+
+## Status
+This is an early proof-of-concept version. Any constructive feedback and suggestions are welcome.
+
 ## Install
 ### globally (recommended)
 no need to modify the project's composer.json and disturbing your collegues
