@@ -17,14 +17,14 @@ no need to modify the project's composer.json and disturbing your collegues
 
 ```$ composer require global drx777/phpgh```
 
-add a call to the hooks script to your .git/hooks/pre-commit:
+add a call to the hooks script to your git project's .git/hooks/pre-commit (make sure the script is executable):
 
 ```~/.composer/vendor/bin/phpgh phplint phpcs phpunit```
 
 ### per project
 ```$ composer require --dev drx777/phpgh```
 
-add a call to the hooks script to your .git/hooks/pre-commit:
+add a call to the hooks script to your git project's .git/hooks/pre-commit (make sure the script is executable):
 
 ```./vendor/bin/phpgh phpcs phplint phpunit```
 
