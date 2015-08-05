@@ -4,7 +4,7 @@
 git hooks for PHP
 
 ## Purpose
-This package wants to provide a simple way of adding git hooks to a project, even a number of projects without having to mess with multiple project's .git/hooks/* scripts. Install via composer and add a line to the hook script.
+This package wants to provide a simple way of adding git hooks to a project, even a number of projects without having to mess with multiple project's .git/hooks/* scripts repeatedly. Install via composer and add a line to the hook script. Done.
 
 It can be used to kickstart your own centralized git hooks or as a basis for a company policy git hook collection.
 
